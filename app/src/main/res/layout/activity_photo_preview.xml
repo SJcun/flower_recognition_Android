@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <!--实现图片预览功能-->
+    <!--
+    <SurfaceView
+        android:id="@+id/pic_SurfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+        -->
+    <ImageView
+        android:id="@+id/pic_imv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#0E0E0E">
+        <Button
+            android:id="@+id/picture_OK_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            android:text="确定"/>
+        <!--点击观看识别结果-->
+
+        <!--
+        <Button
+            android:id="@+id/picture_again_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text="重拍"
+            android:layout_marginEnd="10dp"/>
+            -->
+    </RelativeLayout>
+</LinearLayout>
